@@ -4,12 +4,10 @@
     "url": "https://github.com/psirenny/derby-lang-session/issues"
   },
   "dependencies": {
-    "findit": "*",
-    "lodash": "*",
-    "messageformat": "*",
-    "traverse": "*"
+    "locale": "*",
+    "lodash": "*"
   },
-  "description": "A translation library for Derby JS.",
+  "description": "Add session support to derby-lang.",
   "keywords": [
     "derby",
     "gettext",
@@ -20,6 +18,7 @@
     "locale",
     "localization",
     "messageformat",
+    "session",
     "translation"
   ],
   "license": "MIT",
