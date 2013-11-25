@@ -6,7 +6,8 @@ module.exports = function (app, options) {
     init: function () {
       return function (req, res, next) {
         var model = req.getModel()
-          , prefferedLocales = (req.headers['accept-language'] || '').split(',')
+          , defaultLocale = model.get('$lang.defaultLocale')
+          , prefferedLocales = (req.headers['accept-language'] || defaultLocale).split(',')
           , supportedLocales = new locale.Locales(_.keys(model.get('$lang.translations')));
 
         prefferedLocales.unshift(req.session.locale || '');
