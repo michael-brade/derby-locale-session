@@ -1,0 +1,37 @@
+{
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/derby-lang-session/issues"
+  },
+  "dependencies": {
+    "findit": "*",
+    "lodash": "*",
+    "messageformat": "*",
+    "traverse": "*"
+  },
+  "description": "A translation library for Derby JS.",
+  "keywords": [
+    "derby",
+    "gettext",
+    "i18n",
+    "i10n",
+    "internationalization",
+    "language",
+    "locale",
+    "localization",
+    "messageformat",
+    "translation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "derby-lang-session",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/derby-lang-session.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
