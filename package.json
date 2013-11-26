@@ -10,7 +10,6 @@
   "description": "Add session support to derby-lang.",
   "keywords": [
     "derby",
-    "gettext",
     "i18n",
     "i10n",
     "internationalization",
