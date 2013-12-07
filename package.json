@@ -7,14 +7,13 @@
   "keywords": [
     "derby",
     "internationalization",
-    "language",
     "locale",
     "localization",
     "session"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "derby-lang-session",
+  "name": "derby-locale-session",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
