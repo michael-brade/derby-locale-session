@@ -1,24 +1,16 @@
 {
   "author": "psirenny <djtorres0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/psirenny/derby-lang-session/issues"
+    "url": "https://github.com/psirenny/derby-locale-session/issues"
   },
-  "dependencies": {
-    "locale": "*",
-    "lodash": "*"
-  },
-  "description": "Add session support to derby-lang.",
+  "description": "Add session support to derby-locale.",
   "keywords": [
     "derby",
-    "i18n",
-    "i10n",
     "internationalization",
     "language",
     "locale",
     "localization",
-    "messageformat",
-    "session",
-    "translation"
+    "session"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -26,7 +18,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/psirenny/derby-lang-session.git"
+    "url": "git://github.com/psirenny/derby-locale-session.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
